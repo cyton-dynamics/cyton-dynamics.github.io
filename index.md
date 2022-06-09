@@ -9,7 +9,7 @@ The framework provides abstractions for these modules and other important concep
 
 The next sections cover the key concepts provided by the package.
 
-Detailed documentation on the API is here [cyton-dynamics.github.io/cyton.abm/](https://cyton-dynamics.github.io/cyton.abm/)
+Detailed documentation on the API is here [cyton-dynamics.github.io/cyton.toolkit/](https://cyton-dynamics.github.io/cyton.toolkit/)
 
 ## Cell Population
 This is a collection of cells that is evolved through time by the model stepper. Cells can die, divide or can be otherwise inserted into the simulation. The population can instrumented with observers to gather measurements as the population evolves. A cell population is created by calling the `createPopulation` function and passing a factory method to create cells.
